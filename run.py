@@ -25,19 +25,19 @@ def spiel():
     return render_template("spiel.html")
 
 @app.route("/manon")
-def cat1():
+def manon():
     return render_template("manon.html")
 
 @app.route("/ida")
-def cat2():
+def ida():
     return render_template("ida.html")
 
 @app.route("/mias")
-def cat3():
+def mias():
     return render_template("mias.html")
 
 @app.route("/alessandra")
-def cat3():
+def alessandra():
     return render_template("alessandra.html")
 
 if __name__ == "__main__":

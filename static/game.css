@@ -125,4 +125,9 @@ p {
     flex-wrap: wrap;
     align-content: space-around;
 }
+.cats {
+    font-size: 4rem;
+    text-decoration: None;
+    color: rgba(124, 79, 83, 1);
+}
 .flex-container img{margin:0px 40px;}
