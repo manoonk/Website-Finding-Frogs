@@ -3,15 +3,19 @@ body {
     margin: 0px;
 }
 
+div {
+    background-image: url("floor_update.png");
+    height: 1000px;
+}
 a {
-    color: rgba(124, 79, 83, 1);
+    color: rgba(54, 38, 28, 0.849);
     text-decoration: none;
 
 }
 .navbar {
     position: fixed;
     width: 180px;
-    background: rgba(79, 124, 83, 0.667);
+    background: rgba(13, 58, 20, 0.836);
     height: 100%;
     margin: 0px;
 }
@@ -21,7 +25,7 @@ a {
 }
 .nav-link {
     text-decoration: None;
-    color: rgba(124, 79, 83, 1);
+    color: rgba(54, 38, 28, 0.849);
     font-size: 1.4rem;
     transition: all 400ms;
 }
@@ -30,8 +34,8 @@ a {
 }
 h1 {
     width: 100%;
-    background: rgba(79, 124, 83, 0.667);
-    color: rgba(124, 79, 83, 1);
+    background: rgba(13, 58, 20, 0.836);
+    color: rgba(54, 38, 28, 0.849);
     margin: 0px;
     padding: 15px 20px;
 }
@@ -49,74 +53,17 @@ p {
     margin-left: 220px;
     padding: 30px 20px;
 }
-.question {
-    margin: 50px auto;
-    width: 70%;
-    border: 5px dashed rgba(79, 124, 83, 0.667);
-    border-radius: 15px;
-    padding: 40px 70px;
+
+
+
 }
 
-.question h3 {
-    font-size: 3rem;
-}
 
-.question p {
-    margin: 30px 50px;
-}
-
-.answer-list {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    list-style: None;
-}
-
-.answer-item {
-    list-style: None;
-    margin: 0px auto;
-    padding: 0px;
-    width: 300px;
-    text-align: center;
-}
-
-.answer-item a {
-    text-decoration: None;
-    color: rgba(124, 79, 83, 1);
-    border: 3px solid rgba(79, 124, 83, 0.667);
-    background: rgba(79, 124, 83, 0.667);
-    border-radius: 5px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    transition: all 600ms;
-}
-.answer-itempic a {
-    width: 250px;
-}
-.answer-item a:hover {
-    background:  rgba(79, 124, 83, 0.667);;
-    font-size: 2rem;
-}
 
 .wrong {
     color: darkred;
 }
 
-.answer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 100%;
-}
-
-#answer-text {
-    font-size: 4rem;
 }
 .flex-container {
     display: flex;

@@ -1,24 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <body>
-        <div class="cats">  
-        <h2>Das sind wir!</h2>
-        <div class="flex-container">
-            <div> <a href="/manon"> <img src="https://i.pinimg.com/originals/fa/3d/46/fa3d468a3ead5526ff21944095f3a476.jpg" alt="manon" width="150px";></a>
-        </div>
+<body>
+    <div class="cats">  
+    <h2>Das sind wir!</h2>
+    <div class="flex-container">
+        <div> <a href="/manon"> <img src = {{ url_for("static", filename="frogp.png") }} alt="ida" width="150px";>
+    </div>
 
-        <div><a href="/ida"> <img src="https://www.brwnpaperbag.com/wp-content/uploads/2021/05/selyn-cats-head-scarves-1.jpeg" alt="ida" width="150px";>
-        </a></div>
-        <div><a href="/mias"> <img src="https://www.brwnpaperbag.com/wp-content/uploads/2021/05/selyn-cats-head-scarves-9.jpeg" alt="mias" width="150px";></a>
-        </div> 
-        <div><a href="/alessandra"> <img src="https://www.brwnpaperbag.com/wp-content/uploads/2021/05/selyn-cats-head-scarves-9.jpeg" alt="alessandra" width="150px";></a>
-        </div> 
-
-       
-       
-        
-        </div>
-    </body>
+    <div><a href="/ida"> <img src = {{ url_for("static", filename="frog.png") }} alt="ida" width="150px";>
+    </a></div>
+    <div><a href="/mias"> <img src = {{ url_for("static", filename="frogb.png") }} alt="ida" width="150px";>
+    </div> 
+    <div><a href="/alessandra"> <img src = {{ url_for("static", filename="frogy.png") }} alt="ida" width="150px";>
+    </div> 
+    
    
+   
+    
+    </div>
+</body>
 {% endblock %}
