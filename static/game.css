@@ -71,6 +71,7 @@ p {
     align-items: center;  
     flex-wrap: wrap;
     align-content: space-around;
+    flex-direction: row; 
 }
 .cats {
     font-size: 4rem;
