@@ -34,28 +34,28 @@ a {
 }
 h1 {
     width: 100%;
-    background: rgba(13, 58, 20, 0.836);
+    background: rgba(28, 96, 38, 0.836);
     color: rgba(54, 38, 28, 0.849);
     margin: 0px;
     padding: 15px 20px;
 }
 H2 {
-    color: rgba(124, 79, 83, 1);
+    color: rgb(193, 103, 109);
 }
 H3 {
-    color: rgba(124, 79, 83, 1);
+    color: rgb(193, 103, 109);
+}
+
+H4 {
+    color: rgb(197, 197, 197)
 }
 p {
-    color: rgba(79, 124, 83, 0.667);
+    color: rgb(152, 212, 170);
     font-size: 25px;
 }
 #content {
     margin-left: 220px;
     padding: 30px 20px;
-}
-
-
-
 }
 
 
