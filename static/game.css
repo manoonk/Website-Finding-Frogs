@@ -44,7 +44,8 @@ H2 {
     color: rgb(76, 122, 79);
 }
 H3 {
-    color: rgb(193, 103, 109);
+    font-size: 4rem;
+    color:rgb(76, 122, 79)
 }
 
 H4 {
@@ -52,15 +53,15 @@ H4 {
 }
 
 h5 {
-    color: rgb(199, 214, 186);
+    color: rgb(162, 174, 152);
     font-size: 20px;
 }
 h6 {
     color: rgb(197, 197, 197)
 }
 p {
-    color: rgb(102, 159, 103);
-    font-size: 25px;
+    color: rgb(199, 214, 186);
+    font-size: 22px;
 }
 #content {
     margin-left: 220px;
@@ -69,9 +70,6 @@ p {
 
 
 
-.wrong {
-    color: darkred;
-}
 
 .flex-container {
     display: flex;
@@ -82,7 +80,6 @@ p {
     flex-direction: row; 
 }
 .cats {
-    font-size: 4rem;
     text-decoration: None;
     color: rgba(124, 79, 83, 1);
 }
